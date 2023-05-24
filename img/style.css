@@ -1,0 +1,61 @@
+
+@keyframes Elcartas {
+from {
+background-position: 0px;
+}
+
+to {
+background-position: -560px;
+}
+}
+
+@-ms-keyframes Elcartas {
+from {
+background-position: 0px;
+}
+
+to {
+background-position: -560px;
+}
+}
+
+@-o-keyframes Elcartas {
+from {
+background-position: 0px;
+}
+
+to {
+background-position: -560px;
+}
+}
+
+@-webkit-keyframes Elcartas {
+from {
+background-position: 0px;
+}
+
+to {
+background-position: -560px;
+}
+}
+
+@-moz-keyframes Elcartas {
+from {
+background-position: 0px;
+}
+
+to {
+background-position: -560px;
+}
+}
+
+.recorte {
+width: 70px;
+height: 112px;
+background-image: url("Elcartas.png");
+-ms-animation: Elcartas 2s steps(4, end) infinite;
+-webkit-animation: Elcartas 2s steps(4, end) infinite;
+-moz-animation: Elcartas 2s steps(4, end) infinite;
+-o-animation: Elcartas 2s steps(4, end) infinite;
+animation: Elcartas 2s steps(4, end) infinite;
+}

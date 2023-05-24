@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title></title>
+
+<link rel="stylesheet" href="style.css">
+
+<script>
+
+function startAnimation() {
+document.getElementById("recorte").style.MsAnimationPlayState = "running";
+document.getElementById("recorte").style.webkitAnimationPlayState = "running";
+document.getElementById("recorte").style.MozAnimationPlayState = "running";
+document.getElementById("recorte").style.OAnimationPlayState = "running";
+document.getElementById("recorte").style.animationPlayState = "running";
+}
+
+function stopAnimation() {
+document.getElementById("recorte").style.MsAnimationPlayState = "paused";
+document.getElementById("recorte").style.webkitAnimationPlayState = "paused";
+document.getElementById("recorte").style.MozAnimationPlayState = "paused";
+document.getElementById("recorte").style.OAnimationPlayState = "paused";
+document.getElementById("recorte").style.animationPlayState = "paused";
+}
+
+</script>
+
+</head>
+<body>
+<div id="recorte" class="recorte"></div>
+<button id="Pausar" name="Pausar" onclick="stopAnimation()">Pausar</button>
+<button id="Animar" name="Animar" onclick="startAnimation()">Animar</button>
+</body>
+</html>
